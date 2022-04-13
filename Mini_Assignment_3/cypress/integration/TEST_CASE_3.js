@@ -15,5 +15,6 @@ describe('My First Test', () =>
     })
     it('Click on Radio Button found at the left side, select the impressive option. assert that correct option is selected',function()
     {
+        cy.get("div.element-group:nth-child(1)  > div > ul >  #item-2").click()
     })
 })

@@ -15,5 +15,6 @@ describe('My First Test', () =>
     })
     it('Click on the Links button found at the left side. Validate the number of links present under the links option.',function()
     {
+        cy.get("div.element-group:nth-child(1)  > div > ul >  #item-5").click()
     })
 })

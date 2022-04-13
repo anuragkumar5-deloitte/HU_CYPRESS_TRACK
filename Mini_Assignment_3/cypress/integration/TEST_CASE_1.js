@@ -18,10 +18,10 @@ describe('My First Test', () =>
         cy.get("div.element-group:nth-child(1)  > div > ul >  #item-0").click()
         cy.get('#app > div > div > div.pattern-backgound.playgound-header > div').should('contain.text', 'Text Box')
         cy.fixture('example').then((Local)=>{
-            cy.get('#userName').type(Local.FullName).click().should('have.text',Local.FullName)
-            cy.get('#userEmail').type(Local.Email).click().should('have.text',Local.Email)
-            cy.get('#currentAddress').type(Local.CurrentAddress).click().should('have.text',Local.CurrentAddress)
-            cy.get('#permanentAddress').type(Local.PermanentAddress).click().should('have.text',Local.PermanentAddress)
+            cy.get('#userName').type(Local.FullName).click().should('have.value',Local.FullName)
+            cy.get('#userEmail').type(Local.Email).click().should('have.value',Local.Email)
+            cy.get('#currentAddress').type(Local.CurrentAddress).click().should('have.value',Local.CurrentAddress)
+            cy.get('#permanentAddress').type(Local.PermanentAddress).click().should('have.value',Local.PermanentAddress)
     })
     it('Validating the submitted details', () => {
         cy.get('#submit').click()

@@ -15,5 +15,6 @@ describe('My First Test', () =>
     })
     it('Click on the Web Tables option under the Elements ',function()
     {
+        cy.get("div.element-group:nth-child(1)  > div > ul >  #item-3").click()
     })
 })

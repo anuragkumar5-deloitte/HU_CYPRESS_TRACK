@@ -15,5 +15,6 @@ describe('My First Test', () =>
     })
     it('Click Check box button found at the left side, expand the Home option, and select the Documents check box ',function()
     {
+        cy.get("div.element-group:nth-child(1)  > div > ul >  #item-1").click()
     })
 })
