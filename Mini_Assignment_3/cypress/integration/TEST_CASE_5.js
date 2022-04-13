@@ -17,4 +17,11 @@ describe('My First Test', () =>
     {
         cy.get("div.element-group:nth-child(1)  > div > ul >  #item-5").click()
     })
+    it('Validating the url for links page', () => {
+        cy.url().should('contain', '/links')
+    })
+
+    it('Validating the number of links', () => {
+        cy.get('#linkWrapper > p > a').should('have.length', 9)
+    })
 })
