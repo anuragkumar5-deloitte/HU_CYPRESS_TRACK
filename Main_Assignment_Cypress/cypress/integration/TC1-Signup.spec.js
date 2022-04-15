@@ -1,3 +1,11 @@
+//1st Spec file: TC1_ Signup_ Registration.spec.js
+//	Test-Case-1 : Registration with invalid Email-id
+//	Test-Case-2 : Registration with empty Email-id
+//	Test-Case-3 : Registration with empty password
+//	Test-Case-4 : Registration with empty Email-id & password
+//	Test-Case-5 : Registration-Sign-in
+
+
 /// <reference types="Cypress" />
 
 
