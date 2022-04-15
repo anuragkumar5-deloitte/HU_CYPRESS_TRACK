@@ -11,5 +11,16 @@
         "otherCategory": "Monitors",
         "otherCatProd1": "Apple monitor 24"
         
-    }
+    },
+    "defaultCommandTimeout":30000,
+
+    "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "charts": true,
+    "reportPageTitle": "My Test Suite",
+    "embeddedScreenshots": true,
+    "inlineAssets": true
+  },
+  "video": false
 }
