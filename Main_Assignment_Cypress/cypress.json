@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://www.demoblaze.com",
+    "env": {
+        "home_page_url" : "/index.html#",
+        "cart_page_url" : "/cart.html",
+        "valid_user_name": "AnAn",
+        "valid_password": "urag",
+        "sameCategory": "Laptops",
+        "sameCatProd1": "Sony vaio i5",
+        "sameCatProd2": "MacBook Pro",
+        "otherCategory": "Monitors",
+        "otherCatProd1": "Apple monitor 24"
+        
+    }
+}
