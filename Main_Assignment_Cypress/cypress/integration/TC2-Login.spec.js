@@ -1,3 +1,12 @@
+//2nd Spec file: TC2_ Signup_Login.spec.js
+
+//Test-Case-1 : Log-in with incorrect username and incorrect password.
+//Test-Case-2 : Log-in with correct username and empty password.
+//Test-Case-3 : Log-in with empty username and valid password.
+//Test-Case-4 : Login-Handles case sensitive  
+//Test-Case-5 : Log-in with valid username and password.
+
+
 /// <reference types="Cypress" />
 
 describe('Validating signin', () => {
